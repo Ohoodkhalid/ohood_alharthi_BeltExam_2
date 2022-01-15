@@ -33,7 +33,7 @@ class LocalDBFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_local_d_b, container, false)
 
 
-        recView2 = view.findViewById(R.id.recView1)
+        recView2 = view.findViewById(R.id.recView2)
         adapter2 = RecyclerViewAdapter2(this)
         recView2.adapter = adapter2
         recView2.layoutManager = LinearLayoutManager(requireContext())
